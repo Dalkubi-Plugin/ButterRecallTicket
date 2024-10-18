@@ -8,7 +8,7 @@ public class PermissionValidator {
 
     public static Boolean hasPermission(Player player, String permission) {
         Message msgData = Message.getInstance();
-        if (player.hasPermission("butter.recallticket." + permission)) {
+        if (player.hasPermission(" " + permission)) {
             return true;
         } else {
             player.sendMessage(msgData.getMessage(MessageKey.NO_PERMISSION));
