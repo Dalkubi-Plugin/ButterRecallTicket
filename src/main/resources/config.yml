@@ -1,0 +1,9 @@
+cooldown:
+  cooltime: 5 # 쿨타임 시간 (초 단위)
+ticket:
+  material: PAPER
+  display-name: "&f귀환서"
+  custom-model-data: 0
+  lore:
+    - "&7손에 아이템을 들고 우클릭 시 사용됩니다."
+location: null
