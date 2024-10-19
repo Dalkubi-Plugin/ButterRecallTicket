@@ -43,7 +43,7 @@ public class TicketClickListener implements Listener {
             return;
 
         if (action == Action.RIGHT_CLICK_AIR || action == Action.RIGHT_CLICK_BLOCK) {
-            if (mainHand.isSimilar(plugin.getManageTicket().getTicket())) { // 아이템 비교
+            if (mainHand.isSimilar(plugin.getManageTicket().getTicket())) {
                 if (plugin.getManageTicket().getLocation() == null) {
                     player.sendMessage(msgData.getMessage(MessageKey.LOCATION_NOT_SET));
                     return;
